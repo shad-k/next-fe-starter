@@ -5,8 +5,11 @@ module.exports = {
   },
   purge: [],
   theme: {
+    textColor: {
+      primary: "#0070f3",
+    },
     extend: {},
   },
   variants: {},
   plugins: [],
-}
+};
