@@ -3,10 +3,10 @@ module.exports = {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: ["./**/*.html", "./**/*.tsx"],
+  purge: ['./**/*.html', './**/*.tsx'],
   theme: {
     textColor: {
-      primary: "#0070f3",
+      primary: '#0070f3',
     },
     extend: {},
   },
