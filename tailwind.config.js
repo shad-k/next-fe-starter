@@ -1,10 +1,9 @@
 module.exports = {
-  mode: 'jit',
   future: {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
   },
-  purge: ['./**/*.html', './**/*.tsx'],
+  content: ['./**/*.html', './**/*.tsx'],
   theme: {
     textColor: {
       primary: '#0070f3',
